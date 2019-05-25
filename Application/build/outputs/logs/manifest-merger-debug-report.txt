@@ -1,0 +1,248 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\hotdo\Desktop\ANDROID EXAMPLES\android-ActionBarCompat-Styled-master\Application\src\main\AndroidManifest.xml:18:1-62:12
+INJECTED from C:\Users\hotdo\Desktop\ANDROID EXAMPLES\android-ActionBarCompat-Styled-master\Application\src\main\AndroidManifest.xml:18:1-62:12
+INJECTED from C:\Users\hotdo\Desktop\ANDROID EXAMPLES\android-ActionBarCompat-Styled-master\Application\src\main\AndroidManifest.xml:18:1-62:12
+MERGED from [me.itangqi.waveloadingview:library:0.3.5] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\library-0.3.5.aar\e3f74acc1d7b7b188bff7ea2e4203982\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.material:material:1.1.0-alpha06] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\material-1.1.0-alpha06.aar\6abb69dabb088ea68308cec44a4db812\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-alpha02] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\viewpager2-1.0.0-alpha02.aar\83f8fe186092d14f2cde588acdb820ef\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.1.0-alpha05] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\appcompat-1.1.0-alpha05.aar\3ba5ea5285ca656019c8a65b8d021669\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.2] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\constraintlayout-1.1.2.aar\fbd5ae0ab937f80881c4898529f48a33\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-wearable:16.0.1] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\jetified-play-services-wearable-16.0.1.aar\3416627ad7a626c1d3148708a9cdfac5\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\31c2f3500aedc60101b1458147f6e243\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\a440059022908e369a5ed28a60f551a7\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\8bf850b5fd61f4c0f6b5eaa6bbfc69c6\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.legacy:legacy-support-v13:1.0.0] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\legacy-support-v13-1.0.0.aar\f819658af10eb75857d5e545ab01e459\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\legacy-support-v4-1.0.0.aar\e92c5dae54ebaf1a011df8281f90aaef\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\2c46d1f355c4b371460dcbb60f61d73f\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.1] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\transition-1.0.1.aar\aa549a4b4fa6e3d273906b8f30bb42b4\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\b4dba5bd415cb1791c34e9796d70254b\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\020a6000c04828ae177b872279a19ac9\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.1.0-alpha08] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\fragment-1.1.0-alpha08.aar\b26981db4b8d73b5a521d2e1e6b13eae\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\a38f5796b141515a6685275415209773\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\30db7d5887336eba9b174b068a7466e0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-alpha03] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\recyclerview-1.1.0-alpha03.aar\d0cfdda8b8eb8369654e44ecc400d3f0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.1.0-alpha01.aar\811c9e52af7ae5123b2eb9dc218489ad\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\852b03544d205e387220f3a0a620b087\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-alpha05] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\appcompat-resources-1.1.0-alpha05.aar\628abd92d3b604ff49a0c090cad3cf73\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\e7fac27865bc041f6e2287ef7d08d48a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\eeec90a34f28ee917b808faa790129a4\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\7461dd934afe04f827663f1fba3d9fae\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\f459e261e54a840702eceefc563f9a84\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0-alpha08] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\activity-1.0.0-alpha08.aar\7530adab763d26724f25129844fc03ed\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0-beta01] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.1.0-beta01.aar\bcc58d04bc65443f82219500977254cf\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-beta01] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.1.0-beta01.aar\4a5282880199d2ee603efc17cbbf99b0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\media-1.0.0.aar\c2ea5198f311243ba14f001a08be55ce\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0-beta01] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\core-1.1.0-beta01.aar\4c3a5cf699c9f9b9b0f6947b3a840c22\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\bcf27ade98a4f1ccb6e1ffb85abcedb1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\8f2b26d312c1ba305f91733bd9059a8c\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\e123e6cf88b1e2e6c16a61dca1070964\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\7a387ceb519b931503b425d044ba162d\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\248d074637a2b21ae941753bcb7df815\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\a56f2c9b14cdde4457727f11b9a870d0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\b78ea19f76e7ada1013aa66ef43c97d3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\9334dade2cc6d08ca509265cb9884ac8\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0-beta01] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\savedstate-1.0.0-beta01.aar\a3722b8c93d32b71167fea8112976d4a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-beta01] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0-beta01.aar\89e609c788986aeaa7c37bc31fa1106a\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0-alpha01] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.2.0-alpha01.aar\5cb9d5a4cf5f1cb2d1e2dc816e8380d8\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0-alpha01] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.2.0-alpha01.aar\26ad63650b5e56b169635ae14aefff99\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\hotdo\Desktop\ANDROID EXAMPLES\android-ActionBarCompat-Styled-master\Application\src\main\AndroidManifest.xml:18:1-62:12
+INJECTED from C:\Users\hotdo\Desktop\ANDROID EXAMPLES\android-ActionBarCompat-Styled-master\Application\src\main\AndroidManifest.xml:18:1-62:12
+	package
+		ADDED from C:\Users\hotdo\Desktop\ANDROID EXAMPLES\android-ActionBarCompat-Styled-master\Application\src\main\AndroidManifest.xml:19:5-57
+	android:versionName
+		ADDED from C:\Users\hotdo\Desktop\ANDROID EXAMPLES\android-ActionBarCompat-Styled-master\Application\src\main\AndroidManifest.xml:21:5-30
+		INJECTED from C:\Users\hotdo\Desktop\ANDROID EXAMPLES\android-ActionBarCompat-Styled-master\Application\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\hotdo\Desktop\ANDROID EXAMPLES\android-ActionBarCompat-Styled-master\Application\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\hotdo\Desktop\ANDROID EXAMPLES\android-ActionBarCompat-Styled-master\Application\src\main\AndroidManifest.xml:18:11-69
+	android:versionCode
+		ADDED from C:\Users\hotdo\Desktop\ANDROID EXAMPLES\android-ActionBarCompat-Styled-master\Application\src\main\AndroidManifest.xml:20:5-28
+		INJECTED from C:\Users\hotdo\Desktop\ANDROID EXAMPLES\android-ActionBarCompat-Styled-master\Application\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\hotdo\Desktop\ANDROID EXAMPLES\android-ActionBarCompat-Styled-master\Application\src\main\AndroidManifest.xml
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\Users\hotdo\Desktop\ANDROID EXAMPLES\android-ActionBarCompat-Styled-master\Application\src\main\AndroidManifest.xml:29:5-68
+	android:name
+		ADDED from C:\Users\hotdo\Desktop\ANDROID EXAMPLES\android-ActionBarCompat-Styled-master\Application\src\main\AndroidManifest.xml:29:22-65
+application
+ADDED from C:\Users\hotdo\Desktop\ANDROID EXAMPLES\android-ActionBarCompat-Styled-master\Application\src\main\AndroidManifest.xml:30:5-60:19
+MERGED from [me.itangqi.waveloadingview:library:0.3.5] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\library-0.3.5.aar\e3f74acc1d7b7b188bff7ea2e4203982\AndroidManifest.xml:11:5-15:19
+MERGED from [me.itangqi.waveloadingview:library:0.3.5] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\library-0.3.5.aar\e3f74acc1d7b7b188bff7ea2e4203982\AndroidManifest.xml:11:5-15:19
+MERGED from [com.google.android.material:material:1.1.0-alpha06] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\material-1.1.0-alpha06.aar\6abb69dabb088ea68308cec44a4db812\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0-alpha06] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\material-1.1.0-alpha06.aar\6abb69dabb088ea68308cec44a4db812\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.2] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\constraintlayout-1.1.2.aar\fbd5ae0ab937f80881c4898529f48a33\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.2] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\constraintlayout-1.1.2.aar\fbd5ae0ab937f80881c4898529f48a33\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-wearable:16.0.1] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\jetified-play-services-wearable-16.0.1.aar\3416627ad7a626c1d3148708a9cdfac5\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-wearable:16.0.1] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\jetified-play-services-wearable-16.0.1.aar\3416627ad7a626c1d3148708a9cdfac5\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\31c2f3500aedc60101b1458147f6e243\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\31c2f3500aedc60101b1458147f6e243\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\a440059022908e369a5ed28a60f551a7\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\a440059022908e369a5ed28a60f551a7\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\8bf850b5fd61f4c0f6b5eaa6bbfc69c6\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\8bf850b5fd61f4c0f6b5eaa6bbfc69c6\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.1.0-beta01] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\core-1.1.0-beta01.aar\4c3a5cf699c9f9b9b0f6947b3a840c22\AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.1.0-beta01] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\core-1.1.0-beta01.aar\4c3a5cf699c9f9b9b0f6947b3a840c22\AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-beta01] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0-beta01.aar\89e609c788986aeaa7c37bc31fa1106a\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-beta01] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0-beta01.aar\89e609c788986aeaa7c37bc31fa1106a\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0-beta01] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\core-1.1.0-beta01.aar\4c3a5cf699c9f9b9b0f6947b3a840c22\AndroidManifest.xml:22:18-86
+	android:supportsRtl
+		ADDED from C:\Users\hotdo\Desktop\ANDROID EXAMPLES\android-ActionBarCompat-Styled-master\Application\src\main\AndroidManifest.xml:35:10-36
+	android:label
+		ADDED from C:\Users\hotdo\Desktop\ANDROID EXAMPLES\android-ActionBarCompat-Styled-master\Application\src\main\AndroidManifest.xml:32:9-41
+	android:icon
+		ADDED from C:\Users\hotdo\Desktop\ANDROID EXAMPLES\android-ActionBarCompat-Styled-master\Application\src\main\AndroidManifest.xml:31:9-45
+	android:allowBackup
+		ADDED from C:\Users\hotdo\Desktop\ANDROID EXAMPLES\android-ActionBarCompat-Styled-master\Application\src\main\AndroidManifest.xml:34:9-35
+	android:theme
+		ADDED from C:\Users\hotdo\Desktop\ANDROID EXAMPLES\android-ActionBarCompat-Styled-master\Application\src\main\AndroidManifest.xml:33:9-44
+activity#com.example.android.actionbarcompat.styled.MainActivity
+ADDED from C:\Users\hotdo\Desktop\ANDROID EXAMPLES\android-ActionBarCompat-Styled-master\Application\src\main\AndroidManifest.xml:37:9-54:20
+	android:name
+		ADDED from C:\Users\hotdo\Desktop\ANDROID EXAMPLES\android-ActionBarCompat-Styled-master\Application\src\main\AndroidManifest.xml:37:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\hotdo\Desktop\ANDROID EXAMPLES\android-ActionBarCompat-Styled-master\Application\src\main\AndroidManifest.xml:40:13-43:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\hotdo\Desktop\ANDROID EXAMPLES\android-ActionBarCompat-Styled-master\Application\src\main\AndroidManifest.xml:41:17-69
+	android:name
+		ADDED from C:\Users\hotdo\Desktop\ANDROID EXAMPLES\android-ActionBarCompat-Styled-master\Application\src\main\AndroidManifest.xml:41:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\hotdo\Desktop\ANDROID EXAMPLES\android-ActionBarCompat-Styled-master\Application\src\main\AndroidManifest.xml:42:17-77
+	android:name
+		ADDED from C:\Users\hotdo\Desktop\ANDROID EXAMPLES\android-ActionBarCompat-Styled-master\Application\src\main\AndroidManifest.xml:42:27-74
+meta-data#android.support.UI_OPTIONS
+ADDED from C:\Users\hotdo\Desktop\ANDROID EXAMPLES\android-ActionBarCompat-Styled-master\Application\src\main\AndroidManifest.xml:50:13-52:60
+	android:value
+		ADDED from C:\Users\hotdo\Desktop\ANDROID EXAMPLES\android-ActionBarCompat-Styled-master\Application\src\main\AndroidManifest.xml:52:17-57
+	android:name
+		ADDED from C:\Users\hotdo\Desktop\ANDROID EXAMPLES\android-ActionBarCompat-Styled-master\Application\src\main\AndroidManifest.xml:51:17-58
+activity#com.example.android.actionbarcompat.styled.AlarmActivity
+ADDED from C:\Users\hotdo\Desktop\ANDROID EXAMPLES\android-ActionBarCompat-Styled-master\Application\src\main\AndroidManifest.xml:55:9-60
+	android:name
+		ADDED from C:\Users\hotdo\Desktop\ANDROID EXAMPLES\android-ActionBarCompat-Styled-master\Application\src\main\AndroidManifest.xml:55:19-48
+activity#com.example.android.actionbarcompat.styled.DispositivosBT
+ADDED from C:\Users\hotdo\Desktop\ANDROID EXAMPLES\android-ActionBarCompat-Styled-master\Application\src\main\AndroidManifest.xml:56:9-61
+	android:name
+		ADDED from C:\Users\hotdo\Desktop\ANDROID EXAMPLES\android-ActionBarCompat-Styled-master\Application\src\main\AndroidManifest.xml:56:19-49
+activity#com.example.android.actionbarcompat.styled.NotificationAlarmActivity
+ADDED from C:\Users\hotdo\Desktop\ANDROID EXAMPLES\android-ActionBarCompat-Styled-master\Application\src\main\AndroidManifest.xml:57:9-72
+	android:name
+		ADDED from C:\Users\hotdo\Desktop\ANDROID EXAMPLES\android-ActionBarCompat-Styled-master\Application\src\main\AndroidManifest.xml:57:19-60
+receiver#presenter.AlertReceiver
+ADDED from C:\Users\hotdo\Desktop\ANDROID EXAMPLES\android-ActionBarCompat-Styled-master\Application\src\main\AndroidManifest.xml:58:9-60
+	android:name
+		ADDED from C:\Users\hotdo\Desktop\ANDROID EXAMPLES\android-ActionBarCompat-Styled-master\Application\src\main\AndroidManifest.xml:58:19-57
+uses-sdk
+INJECTED from C:\Users\hotdo\Desktop\ANDROID EXAMPLES\android-ActionBarCompat-Styled-master\Application\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\hotdo\Desktop\ANDROID EXAMPLES\android-ActionBarCompat-Styled-master\Application\src\main\AndroidManifest.xml
+INJECTED from C:\Users\hotdo\Desktop\ANDROID EXAMPLES\android-ActionBarCompat-Styled-master\Application\src\main\AndroidManifest.xml
+MERGED from [me.itangqi.waveloadingview:library:0.3.5] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\library-0.3.5.aar\e3f74acc1d7b7b188bff7ea2e4203982\AndroidManifest.xml:7:5-9:41
+MERGED from [me.itangqi.waveloadingview:library:0.3.5] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\library-0.3.5.aar\e3f74acc1d7b7b188bff7ea2e4203982\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.1.0-alpha06] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\material-1.1.0-alpha06.aar\6abb69dabb088ea68308cec44a4db812\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0-alpha06] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\material-1.1.0-alpha06.aar\6abb69dabb088ea68308cec44a4db812\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-alpha02] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\viewpager2-1.0.0-alpha02.aar\83f8fe186092d14f2cde588acdb820ef\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-alpha02] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\viewpager2-1.0.0-alpha02.aar\83f8fe186092d14f2cde588acdb820ef\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0-alpha05] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\appcompat-1.1.0-alpha05.aar\3ba5ea5285ca656019c8a65b8d021669\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0-alpha05] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\appcompat-1.1.0-alpha05.aar\3ba5ea5285ca656019c8a65b8d021669\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.2] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\constraintlayout-1.1.2.aar\fbd5ae0ab937f80881c4898529f48a33\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.2] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\constraintlayout-1.1.2.aar\fbd5ae0ab937f80881c4898529f48a33\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-wearable:16.0.1] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\jetified-play-services-wearable-16.0.1.aar\3416627ad7a626c1d3148708a9cdfac5\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-wearable:16.0.1] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\jetified-play-services-wearable-16.0.1.aar\3416627ad7a626c1d3148708a9cdfac5\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\31c2f3500aedc60101b1458147f6e243\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\31c2f3500aedc60101b1458147f6e243\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\a440059022908e369a5ed28a60f551a7\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\a440059022908e369a5ed28a60f551a7\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\8bf850b5fd61f4c0f6b5eaa6bbfc69c6\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\8bf850b5fd61f4c0f6b5eaa6bbfc69c6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v13:1.0.0] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\legacy-support-v13-1.0.0.aar\f819658af10eb75857d5e545ab01e459\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v13:1.0.0] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\legacy-support-v13-1.0.0.aar\f819658af10eb75857d5e545ab01e459\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\legacy-support-v4-1.0.0.aar\e92c5dae54ebaf1a011df8281f90aaef\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\legacy-support-v4-1.0.0.aar\e92c5dae54ebaf1a011df8281f90aaef\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\2c46d1f355c4b371460dcbb60f61d73f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\2c46d1f355c4b371460dcbb60f61d73f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.1] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\transition-1.0.1.aar\aa549a4b4fa6e3d273906b8f30bb42b4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.1] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\transition-1.0.1.aar\aa549a4b4fa6e3d273906b8f30bb42b4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\b4dba5bd415cb1791c34e9796d70254b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\b4dba5bd415cb1791c34e9796d70254b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\020a6000c04828ae177b872279a19ac9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\020a6000c04828ae177b872279a19ac9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0-alpha08] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\fragment-1.1.0-alpha08.aar\b26981db4b8d73b5a521d2e1e6b13eae\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0-alpha08] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\fragment-1.1.0-alpha08.aar\b26981db4b8d73b5a521d2e1e6b13eae\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\a38f5796b141515a6685275415209773\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\a38f5796b141515a6685275415209773\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\30db7d5887336eba9b174b068a7466e0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\30db7d5887336eba9b174b068a7466e0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-alpha03] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\recyclerview-1.1.0-alpha03.aar\d0cfdda8b8eb8369654e44ecc400d3f0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-alpha03] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\recyclerview-1.1.0-alpha03.aar\d0cfdda8b8eb8369654e44ecc400d3f0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.1.0-alpha01.aar\811c9e52af7ae5123b2eb9dc218489ad\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.1.0-alpha01.aar\811c9e52af7ae5123b2eb9dc218489ad\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\852b03544d205e387220f3a0a620b087\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\852b03544d205e387220f3a0a620b087\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-alpha05] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\appcompat-resources-1.1.0-alpha05.aar\628abd92d3b604ff49a0c090cad3cf73\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-alpha05] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\appcompat-resources-1.1.0-alpha05.aar\628abd92d3b604ff49a0c090cad3cf73\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\e7fac27865bc041f6e2287ef7d08d48a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\e7fac27865bc041f6e2287ef7d08d48a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\eeec90a34f28ee917b808faa790129a4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\eeec90a34f28ee917b808faa790129a4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\7461dd934afe04f827663f1fba3d9fae\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\7461dd934afe04f827663f1fba3d9fae\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\f459e261e54a840702eceefc563f9a84\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\f459e261e54a840702eceefc563f9a84\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0-alpha08] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\activity-1.0.0-alpha08.aar\7530adab763d26724f25129844fc03ed\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0-alpha08] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\activity-1.0.0-alpha08.aar\7530adab763d26724f25129844fc03ed\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0-beta01] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.1.0-beta01.aar\bcc58d04bc65443f82219500977254cf\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0-beta01] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.1.0-beta01.aar\bcc58d04bc65443f82219500977254cf\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-beta01] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.1.0-beta01.aar\4a5282880199d2ee603efc17cbbf99b0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-beta01] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.1.0-beta01.aar\4a5282880199d2ee603efc17cbbf99b0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\media-1.0.0.aar\c2ea5198f311243ba14f001a08be55ce\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\media-1.0.0.aar\c2ea5198f311243ba14f001a08be55ce\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0-beta01] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\core-1.1.0-beta01.aar\4c3a5cf699c9f9b9b0f6947b3a840c22\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0-beta01] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\core-1.1.0-beta01.aar\4c3a5cf699c9f9b9b0f6947b3a840c22\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\bcf27ade98a4f1ccb6e1ffb85abcedb1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\bcf27ade98a4f1ccb6e1ffb85abcedb1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\8f2b26d312c1ba305f91733bd9059a8c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\8f2b26d312c1ba305f91733bd9059a8c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\e123e6cf88b1e2e6c16a61dca1070964\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\e123e6cf88b1e2e6c16a61dca1070964\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\7a387ceb519b931503b425d044ba162d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\7a387ceb519b931503b425d044ba162d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\248d074637a2b21ae941753bcb7df815\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\248d074637a2b21ae941753bcb7df815\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\a56f2c9b14cdde4457727f11b9a870d0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\a56f2c9b14cdde4457727f11b9a870d0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\b78ea19f76e7ada1013aa66ef43c97d3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\b78ea19f76e7ada1013aa66ef43c97d3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\9334dade2cc6d08ca509265cb9884ac8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\9334dade2cc6d08ca509265cb9884ac8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0-beta01] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\savedstate-1.0.0-beta01.aar\a3722b8c93d32b71167fea8112976d4a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0-beta01] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\savedstate-1.0.0-beta01.aar\a3722b8c93d32b71167fea8112976d4a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-beta01] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0-beta01.aar\89e609c788986aeaa7c37bc31fa1106a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-beta01] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0-beta01.aar\89e609c788986aeaa7c37bc31fa1106a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0-alpha01] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.2.0-alpha01.aar\5cb9d5a4cf5f1cb2d1e2dc816e8380d8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0-alpha01] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.2.0-alpha01.aar\5cb9d5a4cf5f1cb2d1e2dc816e8380d8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0-alpha01] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.2.0-alpha01.aar\26ad63650b5e56b169635ae14aefff99\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0-alpha01] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.2.0-alpha01.aar\26ad63650b5e56b169635ae14aefff99\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\hotdo\Desktop\ANDROID EXAMPLES\android-ActionBarCompat-Styled-master\Application\src\main\AndroidManifest.xml
+INJECTED from C:\Users\hotdo\Desktop\ANDROID EXAMPLES\android-ActionBarCompat-Styled-master\Application\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\hotdo\Desktop\ANDROID EXAMPLES\android-ActionBarCompat-Styled-master\Application\src\main\AndroidManifest.xml
+		ADDED from C:\Users\hotdo\Desktop\ANDROID EXAMPLES\android-ActionBarCompat-Styled-master\Application\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\hotdo\Desktop\ANDROID EXAMPLES\android-ActionBarCompat-Styled-master\Application\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\hotdo\Desktop\ANDROID EXAMPLES\android-ActionBarCompat-Styled-master\Application\src\main\AndroidManifest.xml
+		ADDED from C:\Users\hotdo\Desktop\ANDROID EXAMPLES\android-ActionBarCompat-Styled-master\Application\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\hotdo\Desktop\ANDROID EXAMPLES\android-ActionBarCompat-Styled-master\Application\src\main\AndroidManifest.xml
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\31c2f3500aedc60101b1458147f6e243\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\31c2f3500aedc60101b1458147f6e243\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\31c2f3500aedc60101b1458147f6e243\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\31c2f3500aedc60101b1458147f6e243\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\8bf850b5fd61f4c0f6b5eaa6bbfc69c6\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\8bf850b5fd61f4c0f6b5eaa6bbfc69c6\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\hotdo\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\8bf850b5fd61f4c0f6b5eaa6bbfc69c6\AndroidManifest.xml:24:13-58

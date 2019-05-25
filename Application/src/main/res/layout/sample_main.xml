@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/Gris"
+    android:gravity="center">
+
+    <me.itangqi.waveloadingview.WaveLoadingView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/wave"
+        app:wlv_round_rectangle="true"
+        app:wlv_shapeType="circle"
+        app:wlv_waveAmplitude="70"
+        app:wlv_waveColor="@color/colorAccent"
+        app:wlv_borderWidth="3dp"
+        app:wlv_borderColor="@color/colorAccent"
+        app:wlv_progressValue="0"
+
+        app:wlv_titleBottomSize="24sp"
+        app:wlv_titleBottomColor="@android:color/holo_blue_dark"
+        app:wlv_titleBottomStrokeColor="@color/colorAccent"
+        app:wlv_titleBottomStrokeWidth="3dp"
+        app:wlv_titleBottom="0"
+
+        app:wlv_titleCenterSize="24sp"
+        app:wlv_titleCenterColor="@android:color/holo_blue_dark"
+        app:wlv_titleCenterStrokeColor="@color/colorAccent"
+        app:wlv_titleCenterStrokeWidth="3dp"
+
+        app:wlv_titleTopSize="24sp"
+        app:wlv_titleTopColor="@android:color/holo_blue_dark"
+        app:wlv_titleTopStrokeColor="@color/colorAccent"
+        app:wlv_titleTopStrokeWidth="3dp"/>
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekbar"
+        android:max="100"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_description"
+        android:padding="16dp"
+        android:gravity="center"/>
+</LinearLayout>
+
+
+
+

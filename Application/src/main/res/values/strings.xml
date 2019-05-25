@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright 2013 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<resources>
+
+    <string name="menu_refresh">Refresh</string>
+    <string name="menu_location">Location</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_settings2">Atras</string>
+    <string name="main_description">Fugas de gas</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_sendnotif">Send Notification</string>
+    <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+
+    <string name="notif_title">Titulo de la Notificación</string>
+    <string name="notif_body">Haz me click</string>
+    <string name="notif_body_intent">Hey! esta es una notificacion enviada desde ECTNotificacion App</string>
+</resources>
