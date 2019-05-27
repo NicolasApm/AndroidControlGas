@@ -6,6 +6,7 @@ import android.app.TimePickerDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -19,11 +20,16 @@ import java.util.Calendar;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.DialogFragment;
+import devices.BTCallback;
+import devices.BTUtil;
 import presenter.AlertReceiver;
 import presenter.TimePickerFragment;
 
-public class AlarmActivity extends AppCompatActivity implements TimePickerDialog.OnTimeSetListener {
+public class AlarmActivity extends AppCompatActivity implements TimePickerDialog.OnTimeSetListener, BTCallback {
     private TextView mTextView;
+    private String btAdd = "00:18:91:D7:DF:E4";
+    private String Data;
+    private BTUtil btUtil;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,6 +41,9 @@ public class AlarmActivity extends AppCompatActivity implements TimePickerDialog
     @Override
     public void onResume() {
         super.onResume();
+        Data = "O";
+        btUtil = new BTUtil();
+        process(Data);
         mTextView = findViewById(R.id.textView);
         Button buttonTimePicker = findViewById(R.id.button_timepicker);
         buttonTimePicker.setOnClickListener(new View.OnClickListener() {
@@ -51,6 +60,24 @@ public class AlarmActivity extends AppCompatActivity implements TimePickerDialog
                 cancelAlarm();
             }
         });
+
+        Button ButtonOn = findViewById(R.id.button_On);
+        ButtonOn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Data = "1";
+                Write(Data);
+            }
+        });
+        Button ButtonOff = findViewById(R.id.button_Off);
+        ButtonOff.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Data = "0";
+                Write(Data);
+            }
+        });
+
     }
 
     @Override
@@ -97,7 +124,6 @@ public class AlarmActivity extends AppCompatActivity implements TimePickerDialog
             c.add(Calendar.DATE, 1);
         }
         alarmManager.setExact(AlarmManager.RTC_WAKEUP, c.getTimeInMillis(), pendingIntent);
-
     }
 
     private void cancelAlarm() {
@@ -106,6 +132,31 @@ public class AlarmActivity extends AppCompatActivity implements TimePickerDialog
         PendingIntent pendingIntent = PendingIntent.getBroadcast(this, 1, intent, 0);
         alarmManager.cancel(pendingIntent);
         mTextView.setText("Alarma Cancelada");
+
+    }
+
+    @Override
+    public void onNext(String data, boolean flag, String Trama) {
+
+    }
+
+    @Override
+    public void onError(Exception e) {
+
+    }
+
+    public void process(String data) {
+
+        try {
+            btUtil.connect(btAdd, this);
+            Write(data);
+        } catch (Exception e) {
+            Log.e("Falla Connected", "Error Conexion Bluetooth ", e);
+        }
+    }
+
+    public void Write(String data) {
+        btUtil.write(data);
     }
 }
 

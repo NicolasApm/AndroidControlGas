@@ -7,14 +7,19 @@ import android.content.Context;
 import android.content.ContextWrapper;
 import android.media.MediaPlayer;
 import android.os.Build;
+import android.util.Log;
 
 import com.example.android.actionbarcompat.styled.R;
 
 import androidx.core.app.NotificationCompat;
+import devices.BTCallback;
+import devices.BTUtil;
 
-public class NotificationHelper extends ContextWrapper {
+public class NotificationHelper extends ContextWrapper implements BTCallback {
     public static final String channelID = "channelID";
     public static final String channelName = "Channel Name";
+    private String btAdd = "00:18:91:D7:DF:E4";
+    private BTUtil btUtil;
 
 
     private NotificationManager mManager;
@@ -24,6 +29,7 @@ public class NotificationHelper extends ContextWrapper {
     public NotificationHelper(Context base, MediaPlayer mp) {
         super(base);
         this.mp = mp;
+
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             createChannel();
@@ -48,13 +54,36 @@ public class NotificationHelper extends ContextWrapper {
 
     public NotificationCompat.Builder getChannelNotification() {
         start();
+       // process();
         return new NotificationCompat.Builder(getApplicationContext(), channelID)
                 .setContentTitle("Notificacion Alarma!")
-                .setContentText("Alarma de gas activada")
+                .setContentText("Programacion apagado paso de gas")
                 .setSmallIcon(R.drawable.ic_launcher_background);
     }
 
     public void start() {
         mp.start();
+    }
+
+    public void process() {
+
+        btUtil = new BTUtil();
+        try {
+            btUtil.connect(btAdd, this);
+            btUtil.write("1");
+        } catch (Exception e) {
+            Log.e("Falla Connected", "Error Conexion Bluetooth ", e);
+        }
+        btUtil.close();
+    }
+
+    @Override
+    public void onNext(String data, boolean flag, String Trama) {
+
+    }
+
+    @Override
+    public void onError(Exception e) {
+
     }
 }

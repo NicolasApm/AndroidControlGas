@@ -24,7 +24,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.SeekBar;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import UtilNot.GlobalNotificationBuilder;
@@ -33,6 +33,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.NotificationCompat;
 import androidx.core.app.NotificationManagerCompat;
 import androidx.core.content.ContextCompat;
+import devices.BTCallback;
+import devices.BTUtil;
 import me.itangqi.waveloadingview.WaveLoadingView;
 import presenter.MockDatabase;
 
@@ -49,7 +51,7 @@ import presenter.MockDatabase;
  * Many of the drawables used in this sample were generated with the
  * 'Android Action Bar Style Generator': http://jgilfelt.github.io/android-actionbarstylegenerator
  */
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements BTCallback {
 
     // private TextView mTextView;
 
@@ -60,54 +62,49 @@ public class MainActivity extends AppCompatActivity {
     public static final String NOTIF_MESSAGE = "NOTIF_MESSAGE";
     public static final int NOTIFICATION_ID = 888;
     private NotificationManagerCompat mNotificationManagerCompat;
-
+    private String btAdd = "00:18:91:D7:DF:E4";
+    private BTUtil btUtil;
+    private String data="";
+    private String DataS="";
+    private  int dataRctp=0;
+    private WaveLoadingView waveLoadingView;
+    private ImageView image;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.sample_main);
 
-        SeekBar seekBar;
-        final WaveLoadingView waveLoadingView;
+        image = findViewById(R.id.imgoff);
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+
+        DataS="O";
+
         mNotificationManagerCompat = NotificationManagerCompat.from(getApplicationContext());
 
         notificacion = new NotificationCompat.Builder(this);
         notificacion.setAutoCancel(true);
 
-        seekBar = findViewById(R.id.seekbar);
+        btUtil = new BTUtil();
+
         waveLoadingView = findViewById(R.id.wave);
 
-        seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
-            @Override
-            public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
-                // progress=20;
-                waveLoadingView.setProgressValue(progress);
-                mp = MediaPlayer.create(getBaseContext(), R.raw.humo);
+        process(DataS);
+    }
 
-                String title = String.valueOf(progress) + "%";
-                waveLoadingView.setBottomTitle("");
-                waveLoadingView.setCenterTitle("");
-                waveLoadingView.setTopTitle("");
+    @Override
+    public void onPause() {
+        super.onPause();
+        try { // Cuando se sale de la aplicación esta parte permite
+            // que no se deje abierto el socket
+            btUtil.close();
+        } catch (Exception e2) {
 
-                if (progress < 50) {
-                    waveLoadingView.setBottomTitle(title);
-                } else if (progress == 50) {
-                    waveLoadingView.setCenterTitle(title);
-                } else {
-                    waveLoadingView.setTopTitle(title);
-                    generateBigPictureStyleNotification();
-                    mp.start();
-                }
-            }
-
-            @Override
-            public void onStartTrackingTouch(SeekBar seekBar) {
-            }
-
-            @Override
-            public void onStopTrackingTouch(SeekBar seekBar) {
-            }
-        });
+        }
     }
 
     @Override
@@ -134,8 +131,9 @@ public class MainActivity extends AppCompatActivity {
 
             case R.id.menu_settings2:
                 Toast.makeText(getBaseContext(), "3", Toast.LENGTH_SHORT).show();
-
-
+                btUtil.close();
+                DataS="O";
+                //process(DataS);
                 break;
         }
         return super.onOptionsItemSelected(item);
@@ -177,8 +175,76 @@ public class MainActivity extends AppCompatActivity {
 
         Notification notification = notificationCompatBuilder.build();
         mNotificationManagerCompat.notify(NOTIFICATION_ID, notification);
+
     }
 
+    public void process(String dataS) {
+
+        try {
+            btUtil.connect(btAdd, this);
+            Write(dataS);
+        } catch (Exception e) {
+            Log.e("Falla Connected", "Error Conexion Bluetooth ", e);
+        }
+    }
+
+    @Override
+    public void onNext(String data, boolean flag ,String Trama) {
+        this.data=data;
+        /*try {
+            btUtil.close();
+        } catch (Exception ex) {
+            Log.e("Close Socket", "Error cerrando", ex);
+        }*/
+        Log.d("DataRecept", data+"//"+Trama);
+        try {
+
+            //String[] btns = data.split(",");
+
+            dataRctp = Integer.parseInt(data);
+            try {
+                //dataRctp=dataRctp;
+                waveLoadingView.setProgressValue(dataRctp);
+                mp = MediaPlayer.create(getBaseContext(), R.raw.humo);
+
+                String title = String.valueOf(dataRctp) + "%";
+                waveLoadingView.setBottomTitle("");
+                waveLoadingView.setCenterTitle("");
+                waveLoadingView.setTopTitle("");
+
+                if (dataRctp < 50) {
+                    waveLoadingView.setBottomTitle(title);
+                } else if (dataRctp == 50) {
+                    waveLoadingView.setCenterTitle(title);
+                } else {
+                    waveLoadingView.setTopTitle(title);
+                    btUtil.write("0");
+                    generateBigPictureStyleNotification();
+                    mp.start();
+                }
+            }catch (Exception e){
+                Log.e("eroor", String.valueOf(e));
+            }
+            if (flag){
+                image.setImageResource(R.drawable.imagesonoff);
+            }
+            else {image.setImageResource(R.drawable.off);}
+
+        } catch (Exception e) {
+
+            // view.Msg("Intenta de nuevo");
+        }
+
+    }
+
+    @Override
+    public void onError(Exception e) {
+
+    }
+
+    private void Write (String data){
+        btUtil.write(data);
+    }
 }
 
 

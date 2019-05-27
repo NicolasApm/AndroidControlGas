@@ -1377,6 +1377,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable imagesonoff
 drawable list_focused_styled
 drawable menu_dropdown_panel_styled
 drawable mtrl_dialog_background
@@ -1400,6 +1401,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable off
 drawable pressed_background
 drawable progress_bg_styled
 drawable progress_horizontal
@@ -1494,6 +1496,8 @@ id beginning
 id blocking
 id bottom
 id buttonPanel
+id button_Off
+id button_On
 id button_cancel
 id button_timepicker
 id calendar_days_header
@@ -1568,6 +1572,7 @@ id icon_only
 id idTitulo
 id ifRoom
 id image
+id imgoff
 id info
 id invisible
 id italic
@@ -1647,7 +1652,6 @@ id search_mag_icon
 id search_plate
 id search_src_text
 id search_voice_btn
-id seekbar
 id select_dialog_listview
 id selected
 id shortcut

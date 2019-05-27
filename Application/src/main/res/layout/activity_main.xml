@@ -32,4 +32,22 @@
         android:layout_marginTop="27dp"
         android:text="Cancelar" />
 
+    <Button
+        android:id="@+id/button_On"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_cancel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:text="Abrir" />
+
+    <Button
+        android:id="@+id/button_Off"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_On"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:text="Cerrar" />
+
 </RelativeLayout>
