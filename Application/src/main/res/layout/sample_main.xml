@@ -7,7 +7,7 @@
     android:background="@color/Gris"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context="view.MainActivity">
 
     <me.itangqi.waveloadingview.WaveLoadingView
         android:id="@+id/wave"

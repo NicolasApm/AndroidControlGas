@@ -34,7 +34,7 @@
         android:allowBackup="true"
          android:supportsRtl="true">
 
-        <activity android:name=".MainActivity">
+        <activity android:name="view.MainActivity">
 
             <!-- Launcher Intent filter -->
             <intent-filter>
@@ -52,9 +52,9 @@
                 android:value="splitActionBarWhenNarrow" />
 
         </activity>
-        <activity android:name=".AlarmActivity"></activity>
-        <activity android:name=".DispositivosBT"></activity>
-        <activity android:name=".NotificationAlarmActivity"></activity>
+        <activity android:name="view.AlarmActivity"></activity>
+        <activity android:name="view.DispositivosBT"></activity>
+        <activity android:name="view.NotificationAlarmActivity"></activity>
         <receiver android:name="presenter.AlertReceiver" />
 
     </application>

@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/Gris"
-    tools:context=".AlarmActivity">
+    tools:context="view.AlarmActivity">
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
